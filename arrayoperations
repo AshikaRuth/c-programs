@@ -35,4 +35,6 @@ while(1)
       scanf("%d",a[]);
       
       
+      void display(int a[],int n)
+      
    
