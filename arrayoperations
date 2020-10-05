@@ -1,0 +1,38 @@
+void main()
+{
+int array[100],n,ch;
+while(1)
+{
+  printf("Array operations/n");
+  printf("********/n");
+  printf("/n 1.Create");
+  printf("/n 2.Display");
+  printf("/n 3.Insert");
+  printf("/n 4.Delete");
+  printf("/n 5.Exit");
+  printf("/n Enter your choice");
+  scanf("%d",&ch);
+  switch(ch)
+  {
+    case 1:n=create(array);
+           break;
+    case 2:display(array n);
+          break;
+    case 3:n=insert_pos(array,n);
+          break;
+    case 4:n=delete_pos(array,n);
+          break;
+    case 5:return;
+           default
+    #include<stdio.h>
+    int create(int a[])
+    {
+      int n,c;
+      printf("Enter the number of elements in array");
+      scanf("%d",&n);
+      printf("Enter %d elements/n",n);
+      for(c=0;c<n;c++)
+      scanf("%d",a[]);
+      
+      
+   
